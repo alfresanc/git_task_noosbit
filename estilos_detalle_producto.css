@@ -1,0 +1,48 @@
+
+#fila{
+	background-color:pink;
+}
+#imagen{
+	width:80%;
+	height:400px;
+	margin-left:10%;
+	margin-top:30px;
+}
+#blanco{
+	width:100%;
+	height:100px;
+	margin-bottom:10%;
+	margin-left:20%; 
+}
+#primo{
+	width:100%;
+	height:100px;
+	margin-top:20%;
+	margin-left:20%;
+	margin-bottom:10%;
+
+}
+#segundo{
+	width:100%;
+	height:100px;
+	margin-top:20%;
+	margin-left:20%;
+	margin-bottom:10%;
+}
+#tercero{
+	width:100%;
+	height:100px;
+	margin-top:20%;
+	margin-left:20%;
+	margin-bottom:10%;
+}
+#temporal{
+	background-color:;
+	margin-top:;
+}
+#tarjeta{
+	margin-top:80px;
+}
+#titulo{
+	margin-left:30%;
+}

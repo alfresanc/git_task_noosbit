@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Checkout</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="checkout/checkout_styles.css">
+</head>
+<body>
+	<div id="Checkout" class="container-fluid">
+		<div class="row">
+		    <div class="col-sm-8">
+		    	<h3>Fecha de entrega estimada</h3>
+				<div id="recuadro1">
+					<div class="row">
+						<div id="columna1" class="col-sm">
+					  		<h6 class="float-left">Dirección del envío</h6>
+					  		<a class="text-right" href="encerte-link-aquí"><p>Cambiar</p></a>
+						    <p>Nombre Apellido<br>
+						    Calle #Num. CIUDAD, MUNICIPIO
+						    CP.00000 <br>
+						    Teléfono: 552756859
+						    <br><br>
+						    <a href="incerte-link-aquí">Agregar instrucciones de entrega</a></p>
+						</div>
+						<div id="columna2" class="col-sm">
+						  	<h6 class="float-left">Método de pago</h6>
+						  	<a class="text-right" href="encerte-link-aquí"> <p>Cambiar</p></a>
+						  	<img class="float-left" src="checkout/imagenes/visa.png">
+						  	<p class="text-left">Visa que termina en 0000 <br>Pago a meses no disponible</p>
+						    <h6 class="float-left">Dirección de <br> la tarjeta</h6>
+						    <a class="text-right" href="encerte-link-aquí"><p>Cambiar</p></a> <br>
+						    <p>Igual a la dirección de envío</p>
+						</div>
+						<div id="columna3" class="col-sm">
+						  	<h6>Tarjetas de regalo y códigos promocionales</h6>
+					  		<form class="form-inline">
+								<div class="form-group mx-sm-3 mb-2">
+									<label for="inputPassword2" class="sr-only">Introduce el código</label>
+									<input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+								</div>
+								<button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
+							</form>
+						</div>
+					</div>
+				</div>
+		    </div>
+		    <div class="col-sm-4">
+		    	<button type="button" class="btn btn-primary btn-lg">Confirmar pedido</button>
+		    	<div id="recuadro2"></div>
+		    	<p>Al realizar tu pedido, aceptas el <a href="Incerte-link-aquí"> aviso de privacidad</a> y <a href="Incerte-link-aquí">Condiciones de uso</a> de Rodeliux.</p>
+	    		<h6 class="bold">Resumen del pedido</h6>
+	    		<br> 
+	    		<h6>Productos: <p class="float-right" class="text-right">$0000.00</p></h6>
+	    		<br>
+	    		<h6>Envío: <p class="float-right" class="text-right">$00.00</p></h6>
+	    		<hr>
+	    		<div id="total">
+	    			<div class="row">
+					    <div class="col">
+					      <h5>TOTAL (Impuestos aplicables incluidos)</h5>
+					    </div>
+					    <div class="col">
+					      <h5 class="float-right">$0000.00</h5>
+					    </div>
+					</div>
+	    		</div>
+	    	</div>
+		  	<div class="row">
+		  		<div class="row">
+		  			<h3>Fecha de entrega estimada 0/00/0000</h3>
+		  		</div>
+		  		<div class="row">
+				    <div class="col-sm-2">
+				    	<img class="miniatura" src="checkout/imagenes/jarra.jpg">
+				    </div>
+				    <div class="col-sm-3">
+				    	<h6>Una jarrita así bien cute, cerámica de técnica mixta, modelo "japanese trip" color: gris rey 
+				    	<h6>$000.00</h6>
+				    	<br> Disponible <br><br> Cantidad: 1 <a class="text-left" href="encerte-link-aquí"> <p class="float-right" class="text-right">Cambiar</p></a></h6>
+				    	<p>Vendido por: Persona</p>
+				    	<button type="button" class="btn btn-secondary btn-sm">Agregar opciones de regalo</button>
+				    </div>
+				    <div class="col-sm-3">
+				    	<h6>Elige una velocidad de envío:</h6>
+				    	<div class="input-group">
+						  <input class="lista" type="radio" aria-label="Radio button for following text input">
+						  <label id="lista" >Envío gratis en 1 día con versión <a href="incerte-link-aquí"> Prime </a></label>
+						</div>
+						<div class="input-group">
+						  <input class="lista" type="radio" aria-label="Radio button for following text input">
+						  <label id="lista" >Envío gratis - recíbelo 00/00</label>
+						</div>
+						<div class="input-group">
+						  <input class="lista" type="radio" aria-label="Radio button for following text input">
+						  <label id="lista" >$00.00 Envío - recíbelo 00/00</label>
+						</div>
+						<div class="input-group">
+						  <input class="lista" type="radio" aria-label="Radio button for following text input">
+						  <label id="lista" >$000.00 Envío - recíbelo 00/00</label>
+						</div>
+				    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

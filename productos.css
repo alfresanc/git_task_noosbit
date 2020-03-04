@@ -7,8 +7,9 @@
 	margin-left: 15px;
 	margin-bottom: 30px;
 }
-#headproducts{
+#headproducts:
 	height: 200px;
+
 }
 
 #where{
@@ -163,3 +164,21 @@ a {
   float:right;
   margin: 10px;
 }
+
+
+.card-body:hover{
+  background-color: orange;
+}
+
+div > .card{
+  background-color: blue;
+}
+
+div p:first-child {
+  color: red;
+}
+
+p:nth-child(2) {
+  background: lime;
+}
+

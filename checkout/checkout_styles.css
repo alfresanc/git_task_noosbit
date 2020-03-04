@@ -21,3 +21,12 @@
 #recuadro2{
 	margin-top: 3%;
 }
+button:hover{
+	background-color: #FFD700 !important;
+}
+p:first-child {
+  color: lime;
+}
+.input-group:nth-child(3n) {
+  color: red;
+}

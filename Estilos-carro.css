@@ -1,10 +1,10 @@
 .card-text: hover{
-	background-color: green;
+	background-color: green !important;
 }
 
-.card-title: nth-child (3){
-background-color: red;
+.card-title: nth-child (3n){
+background-color: red !important;
 }
 .div > p {
-	background-color: blue;
+	background-color: blue !important;
 }
